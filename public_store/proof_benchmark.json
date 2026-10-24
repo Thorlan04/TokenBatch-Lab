@@ -1,0 +1,41 @@
+{
+  "status": "RECORD_VALIDATED",
+  "algorithm_name": "Stochastic-Gittins-Barrier-v239.2",
+  "sha256_signature": "374c90d679364149a5d9ab1392be6ee137ddcdb166f15920b5adb1bd91f22d5c",
+  "timestamp_utc": "2026-10-22 19:44:53 UTC",
+  "benchmarks": {
+    "tokenbatch_champion": {
+      "goodput_pct": 40.5,
+      "p99_latency_ms": 2048.53,
+      "sla_respect_pct": 40.5,
+      "gpu_savings_pct": 20.9
+    },
+    "fcfs_baseline": {
+      "goodput_pct": 33.5,
+      "p99_latency_ms": 2062.02,
+      "sla_respect_pct": 33.5,
+      "composite_score": 37.98
+    },
+    "sjf_baseline": {
+      "goodput_pct": 35.0,
+      "p99_latency_ms": 2046.3,
+      "sla_respect_pct": 35.0,
+      "composite_score": 39.15
+    },
+    "edf_baseline": {
+      "goodput_pct": 38.0,
+      "p99_latency_ms": 2056.94,
+      "sla_respect_pct": 38.0,
+      "composite_score": 41.17
+    }
+  },
+  "verifiable_claims": {
+    "beats_fcfs": true,
+    "beats_sjf": true,
+    "beats_edf": true,
+    "p99_latency_reduction_ms": 13.49,
+    "gpu_efficiency_gain_pct": 20.9
+  },
+  "proprietary_protection": "FULL_FORMULA_RESTRICTED_TO_COMMERCIAL_LICENSE",
+  "license_purchase_url": "https://buy.polar.sh/polar_cl_XceignaL6bXyot2FQuNTP9d14PWdHCKoESuN62sF7m6"
+}
